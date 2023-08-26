@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #122a39;
+  -moz-osx-font-smoothing: grayscale;
+}
+.homepage{
+  background-color: #122a39;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #1a3f57;
+  border-radius: 4px;
+}
+
+.landing{
+  display: flex;
+  justify-content: center;
+  color: #eceff1;
+  height: 100%;
+  align-items: center;
+}
+
+.navleft{
+  float:left;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #eceff1;
+  margin-right: 10px;
+  text-indent: .1em;
+  border-bottom: 3px solid transparent;
+}
+
+
+.x-large{
+  font-size:3em;
+  text-align: center;
+}
+
+.buttons{
+  display:flex;
+ justify-content: center;
+  margin-top: 40px;
+}
+
+.list1{
+     width:150px;
+    height:50px;
+    margin-right:7px;
+    border:none;
+    border-radius:2px;
+    background-color:#1037e4;
+    text-align: center;
+    color: #f0f4f6;
+    font-size:30px;
+    font-weight:400;
+    cursor:pointer;
+}
+
+.list2{
+  width:150px;
+  height:50px;
+  border:none;
+  text-align: center;
+  border-radius:2px;
+  background-color:#ebf0f6;
+  color: #000;
+  font-size:30px;
+  font-weight:400;
+  cursor:pointer;
+}
+
+.navbar__link{
+  color: #eceff1;
+  margin-right:7px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  text-indent: .1em;
+  border-bottom: 3px solid transparent;
+}
+
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+.lpage{
+  color:#000;
+  margin-left:100px;
+}
+
+input {
+  display:block;
+  width:50%;
+  font-size: medium;
+  margin:5px 0;
+  padding:10px;
+}
+
+.type-1 {
+  background-color: #fafafa;
+  border:0;
+  box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: .3s box-shadow;
+}
+
+.type-2{
+  width:100px;
+  height:50px;
+  border:none;
+  justify-content: center;
+  border-radius:2px;
+  background-color:#ebf0f6;
+  color: #000;
+  font-size:30px;
+  font-weight:400;
+  cursor:pointer;
+}
